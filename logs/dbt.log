@@ -30,3 +30,115 @@ Happy modeling!
 [0m08:51:49.168923 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102d33d10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10746bbd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102dcf250>]}
 [0m08:51:49.169388 [debug] [MainThread]: Flushing usage events
 [0m08:51:49.389526 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:09:12.873805 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d19e3d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d19e0d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d2214d0>]}
+
+
+============================== 09:09:12.881904 | 7d53c5c4-1616-49f4-a675-c86a8140f0bf ==============================
+[0m09:09:12.881904 [info ] [MainThread]: Running with dbt=1.9.4
+[0m09:09:12.882931 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/timvaughan/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt init epl_project', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m09:09:12.908920 [debug] [MainThread]: Starter project path: /Users/timvaughan/Library/Caches/pypoetry/virtualenvs/epl-H8JCHd30-py3.11/lib/python3.11/site-packages/dbt/include/starter_project
+[0m09:09:12.923045 [info ] [MainThread]: 
+Your new dbt project "epl_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m09:09:12.923825 [info ] [MainThread]: Setting up your profile.
+[0m09:09:17.202940 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 4.406377, "process_in_blocks": "0", "process_kernel_time": 0.481368, "process_mem_max_rss": "94056448", "process_out_blocks": "0", "process_user_time": 1.592232}
+[0m09:09:17.203753 [debug] [MainThread]: Command `dbt init` succeeded at 09:09:17.203565 after 4.41 seconds
+[0m09:09:17.204389 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108a87d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d19e3d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d1f3d90>]}
+[0m09:09:17.204980 [debug] [MainThread]: Flushing usage events
+[0m09:09:17.433472 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:10:00.319769 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113b44d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113b46310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113bc9490>]}
+
+
+============================== 09:10:00.327735 | 13034b53-5585-4fe1-8263-e9c069d9cad4 ==============================
+[0m09:10:00.327735 [info ] [MainThread]: Running with dbt=1.9.4
+[0m09:10:00.328768 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/timvaughan/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m09:10:00.357146 [info ] [MainThread]: dbt version: 1.9.4
+[0m09:10:00.357988 [info ] [MainThread]: python version: 3.11.4
+[0m09:10:00.359110 [info ] [MainThread]: python path: /Users/timvaughan/Library/Caches/pypoetry/virtualenvs/epl-H8JCHd30-py3.11/bin/python
+[0m09:10:00.359684 [info ] [MainThread]: os info: macOS-13.6.7-x86_64-i386-64bit
+[0m09:10:00.398938 [info ] [MainThread]: Using profiles dir at /Users/timvaughan/.dbt
+[0m09:10:00.400082 [info ] [MainThread]: Using profiles.yml file at /Users/timvaughan/.dbt/profiles.yml
+[0m09:10:00.400581 [info ] [MainThread]: Using dbt_project.yml file at /Users/timvaughan/Documents/Projects/epl/dbt_project.yml
+[0m09:10:00.401531 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m09:10:00.408034 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.17025684, "process_in_blocks": "0", "process_kernel_time": 0.509109, "process_mem_max_rss": "95068160", "process_out_blocks": "0", "process_user_time": 1.693423}
+[0m09:10:00.409675 [debug] [MainThread]: Command `dbt debug` failed at 09:10:00.409282 after 0.17 seconds
+[0m09:10:00.410598 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113bc93d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f433d10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f4ce990>]}
+[0m09:10:00.411885 [debug] [MainThread]: Flushing usage events
+[0m09:10:00.613224 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:13:27.646636 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10768d590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1076b8ed0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1076b9750>]}
+
+
+============================== 09:13:27.654813 | ef9027cb-9534-4422-a7a7-478eb59cafd5 ==============================
+[0m09:13:27.654813 [info ] [MainThread]: Running with dbt=1.9.4
+[0m09:13:27.655897 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/timvaughan/.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m09:13:27.684607 [info ] [MainThread]: dbt version: 1.9.4
+[0m09:13:27.685963 [info ] [MainThread]: python version: 3.11.4
+[0m09:13:27.686680 [info ] [MainThread]: python path: /Users/timvaughan/Library/Caches/pypoetry/virtualenvs/epl-H8JCHd30-py3.11/bin/python
+[0m09:13:27.687224 [info ] [MainThread]: os info: macOS-13.6.7-x86_64-i386-64bit
+[0m09:13:27.727776 [info ] [MainThread]: Using profiles dir at /Users/timvaughan/.dbt
+[0m09:13:27.728860 [info ] [MainThread]: Using profiles.yml file at /Users/timvaughan/.dbt/profiles.yml
+[0m09:13:27.729379 [info ] [MainThread]: Using dbt_project.yml file at /Users/timvaughan/Documents/Projects/epl/dbt_project.yml
+[0m09:13:27.730422 [info ] [MainThread]: adapter type: sqlite
+[0m09:13:27.730910 [info ] [MainThread]: adapter version: 1.9.1
+[0m09:13:27.731325 [info ] [MainThread]: Configuration:
+[0m09:13:27.731693 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m09:13:27.732088 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m09:13:27.732485 [info ] [MainThread]: Required dependencies:
+[0m09:13:27.732923 [debug] [MainThread]: Executing "git --help"
+[0m09:13:27.763227 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m09:13:27.764650 [debug] [MainThread]: STDERR: "b''"
+[0m09:13:27.765261 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m09:13:27.765995 [info ] [MainThread]: Connection:
+[0m09:13:27.766905 [info ] [MainThread]:   database: /Users/timvaughan/Documents/Projects/epl/dev_epl.db
+[0m09:13:27.767552 [info ] [MainThread]:   schema: main
+[0m09:13:27.768106 [info ] [MainThread]:   schemas_and_paths: {'main': '/my_project/data/etl.db'}
+[0m09:13:27.768606 [info ] [MainThread]:   schema_directory: /my_project/data
+[0m09:13:27.770167 [info ] [MainThread]: Registered adapter: sqlite=1.9.1
+[0m09:13:28.006591 [debug] [MainThread]: Acquiring new sqlite connection 'debug'
+[0m09:13:28.083598 [debug] [MainThread]: Using sqlite connection "debug"
+[0m09:13:28.084098 [debug] [MainThread]: On debug: select 1 as id
+[0m09:13:28.084426 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m09:13:28.087597 [warn ] [MainThread]: [AdapterEventDebug]: Unable to parse logging event dictionary. Failed to parse args field: Value unable to open database file has unexpected type <class 'sqlite3.OperationalError'> at AdapterEventDebug.args[0].. Dictionary: {'name': 'SQLite', 'base_msg': "Got an error when attempting to open a sqlite3 connection: '%s'", 'args': [OperationalError('unable to open database file')], 'node_info': {}}
+[0m09:13:28.088276 [debug] [MainThread]:  adapter: 
+[0m09:13:28.088749 [debug] [MainThread]: SQLite adapter: Error running SQL: select 1 as id
+[0m09:13:28.089062 [debug] [MainThread]: SQLite adapter: Rolling back transaction.
+[0m09:13:28.089392 [debug] [MainThread]: On debug: No close available on handle
+[0m09:13:28.089812 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m09:13:28.090316 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m09:13:28.090671 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/timvaughan/Documents/Projects/epl/dbt_project.yml> not found
+
+[0m09:13:28.091069 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Runtime Error
+  Database Error
+    unable to open database file
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m09:13:28.094871 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.5233821, "process_in_blocks": "0", "process_kernel_time": 0.606715, "process_mem_max_rss": "102797312", "process_out_blocks": "0", "process_user_time": 1.704286}
+[0m09:13:28.095472 [debug] [MainThread]: Command `dbt debug` failed at 09:13:28.095352 after 0.52 seconds
+[0m09:13:28.095902 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m09:13:28.096291 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1076b94d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102f37d50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x102fd3350>]}
+[0m09:13:28.096754 [debug] [MainThread]: Flushing usage events
+[0m09:13:28.314145 [debug] [MainThread]: An error was encountered while trying to flush usage events
