@@ -9,7 +9,8 @@ readme = "README.md"
 requires-python = ">=3.11,<3.12"
 dependencies = [
     "dbt-sqlite (>=1.9.1,<2.0.0)",
-    "apache-airflow[sqlite] (==2.8.1)"
+    "apache-airflow[sqlite] (==2.8.1)",
+    "pandas (>=2.2.3,<3.0.0)"
 ]
 
 
