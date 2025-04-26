@@ -4,7 +4,22 @@
 
 SELECT
     '93-94' as season,
-    DATE,
+    date as originalDate,
+  date(
+    CASE
+      WHEN CAST(substr("DATE", 7, 2) AS INTEGER) < 50
+      THEN printf('20%02d-%02d-%02d',
+          CAST(substr("DATE", 7, 2) AS INTEGER),  -- year
+          CAST(substr("DATE", 4, 2) AS INTEGER),  -- month
+          CAST(substr("DATE", 1, 2) AS INTEGER)   -- day
+      )
+      ELSE printf('19%02d-%02d-%02d',
+          CAST(substr("DATE", 7, 2) AS INTEGER),  -- year
+          CAST(substr("DATE", 4, 2) AS INTEGER),  -- month
+          CAST(substr("DATE", 1, 2) AS INTEGER)   -- day
+      )
+    END
+  ) AS matchDate,
     HomeTeam,
     AwayTeam,
     FTHG as fullTimeHomeGoals,
@@ -54,7 +69,22 @@ UNION ALL
 
 SELECT
     '94-95' as season,
-    DATE,
+    date as originalDate,
+  date(
+    CASE
+      WHEN CAST(substr("DATE", 7, 2) AS INTEGER) < 50
+      THEN printf('20%02d-%02d-%02d',
+          CAST(substr("DATE", 7, 2) AS INTEGER),  -- year
+          CAST(substr("DATE", 4, 2) AS INTEGER),  -- month
+          CAST(substr("DATE", 1, 2) AS INTEGER)   -- day
+      )
+      ELSE printf('19%02d-%02d-%02d',
+          CAST(substr("DATE", 7, 2) AS INTEGER),  -- year
+          CAST(substr("DATE", 4, 2) AS INTEGER),  -- month
+          CAST(substr("DATE", 1, 2) AS INTEGER)   -- day
+      )
+    END
+  ) AS matchDate,
     HomeTeam,
     AwayTeam,
     FTHG as fullTimeHomeGoals,
@@ -104,7 +134,22 @@ UNION ALL
 
 SELECT
     '95-96' as season,
-    DATE,
+    date as originalDate,
+  date(
+    CASE
+      WHEN CAST(substr("DATE", 7, 2) AS INTEGER) < 50
+      THEN printf('20%02d-%02d-%02d',
+          CAST(substr("DATE", 7, 2) AS INTEGER),  -- year
+          CAST(substr("DATE", 4, 2) AS INTEGER),  -- month
+          CAST(substr("DATE", 1, 2) AS INTEGER)   -- day
+      )
+      ELSE printf('19%02d-%02d-%02d',
+          CAST(substr("DATE", 7, 2) AS INTEGER),  -- year
+          CAST(substr("DATE", 4, 2) AS INTEGER),  -- month
+          CAST(substr("DATE", 1, 2) AS INTEGER)   -- day
+      )
+    END
+  ) AS matchDate,
     HomeTeam,
     AwayTeam,
     FTHG as fullTimeHomeGoals,
@@ -154,7 +199,22 @@ UNION ALL
 
 SELECT
     '96-97' as season,
-    DATE,
+    date as originalDate,
+  date(
+    CASE
+      WHEN CAST(substr("DATE", 7, 2) AS INTEGER) < 50
+      THEN printf('20%02d-%02d-%02d',
+          CAST(substr("DATE", 7, 2) AS INTEGER),  -- year
+          CAST(substr("DATE", 4, 2) AS INTEGER),  -- month
+          CAST(substr("DATE", 1, 2) AS INTEGER)   -- day
+      )
+      ELSE printf('19%02d-%02d-%02d',
+          CAST(substr("DATE", 7, 2) AS INTEGER),  -- year
+          CAST(substr("DATE", 4, 2) AS INTEGER),  -- month
+          CAST(substr("DATE", 1, 2) AS INTEGER)   -- day
+      )
+    END
+  ) AS matchDate,
     HomeTeam,
     AwayTeam,
     FTHG as fullTimeHomeGoals,
@@ -204,7 +264,22 @@ UNION ALL
 
 SELECT
     '97-98' as season,
-    DATE,
+    date as originalDate,
+  date(
+    CASE
+      WHEN CAST(substr("DATE", 7, 2) AS INTEGER) < 50
+      THEN printf('20%02d-%02d-%02d',
+          CAST(substr("DATE", 7, 2) AS INTEGER),  -- year
+          CAST(substr("DATE", 4, 2) AS INTEGER),  -- month
+          CAST(substr("DATE", 1, 2) AS INTEGER)   -- day
+      )
+      ELSE printf('19%02d-%02d-%02d',
+          CAST(substr("DATE", 7, 2) AS INTEGER),  -- year
+          CAST(substr("DATE", 4, 2) AS INTEGER),  -- month
+          CAST(substr("DATE", 1, 2) AS INTEGER)   -- day
+      )
+    END
+  ) AS matchDate,
     HomeTeam,
     AwayTeam,
     FTHG as fullTimeHomeGoals,
@@ -254,7 +329,22 @@ UNION ALL
 
 SELECT
     '98-99' as season,
-    DATE,
+    date as originalDate,
+  date(
+    CASE
+      WHEN CAST(substr("DATE", 7, 2) AS INTEGER) < 50
+      THEN printf('20%02d-%02d-%02d',
+          CAST(substr("DATE", 7, 2) AS INTEGER),  -- year
+          CAST(substr("DATE", 4, 2) AS INTEGER),  -- month
+          CAST(substr("DATE", 1, 2) AS INTEGER)   -- day
+      )
+      ELSE printf('19%02d-%02d-%02d',
+          CAST(substr("DATE", 7, 2) AS INTEGER),  -- year
+          CAST(substr("DATE", 4, 2) AS INTEGER),  -- month
+          CAST(substr("DATE", 1, 2) AS INTEGER)   -- day
+      )
+    END
+  ) AS matchDate,
     HomeTeam,
     AwayTeam,
     FTHG as fullTimeHomeGoals,
@@ -304,7 +394,22 @@ UNION ALL
 
 SELECT
     '99-00' as season,
-    DATE,
+    date as originalDate,
+  date(
+    CASE
+      WHEN CAST(substr("DATE", 7, 2) AS INTEGER) < 50
+      THEN printf('20%02d-%02d-%02d',
+          CAST(substr("DATE", 7, 2) AS INTEGER),  -- year
+          CAST(substr("DATE", 4, 2) AS INTEGER),  -- month
+          CAST(substr("DATE", 1, 2) AS INTEGER)   -- day
+      )
+      ELSE printf('19%02d-%02d-%02d',
+          CAST(substr("DATE", 7, 2) AS INTEGER),  -- year
+          CAST(substr("DATE", 4, 2) AS INTEGER),  -- month
+          CAST(substr("DATE", 1, 2) AS INTEGER)   -- day
+      )
+    END
+  ) AS matchDate,
     HomeTeam,
     AwayTeam,
     FTHG as fullTimeHomeGoals,
@@ -354,7 +459,22 @@ UNION ALL
 
 SELECT
     '00-01' as season,
-    DATE,
+    date as originalDate,
+  date(
+    CASE
+      WHEN CAST(substr("DATE", 7, 2) AS INTEGER) < 50
+      THEN printf('20%02d-%02d-%02d',
+          CAST(substr("DATE", 7, 2) AS INTEGER),  -- year
+          CAST(substr("DATE", 4, 2) AS INTEGER),  -- month
+          CAST(substr("DATE", 1, 2) AS INTEGER)   -- day
+      )
+      ELSE printf('19%02d-%02d-%02d',
+          CAST(substr("DATE", 7, 2) AS INTEGER),  -- year
+          CAST(substr("DATE", 4, 2) AS INTEGER),  -- month
+          CAST(substr("DATE", 1, 2) AS INTEGER)   -- day
+      )
+    END
+  ) AS matchDate,
     HomeTeam,
     AwayTeam,
     FTHG as fullTimeHomeGoals,
