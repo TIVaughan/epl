@@ -34,3 +34,14 @@ models:
     # Config indicated by + and applies to all files under models/example/
     example:
       +materialized: view
+
+name: epl
+version: '0.1.0'
+config-version: 2
+
+profile: epl
+
+seeds:
+  epl:
+    +materialized: seed
+
