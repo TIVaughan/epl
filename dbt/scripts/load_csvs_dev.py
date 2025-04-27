@@ -3,10 +3,10 @@ import sqlite3
 import pandas as pd
 
 # Path to the SQLite database
-db_path = '/Users/timvaughan/Documents/Projects/epl/dev_epl.db'  # Change this to the path of your SQLite database
+db_path = '../dev_epl.db'  # Change this to the path of your SQLite database
 
 # Path to the directory containing CSV files
-csv_directory = '/Users/timvaughan/Documents/Projects/epl/dbt/seeds'  # Change this to the path of your seeds directory
+csv_directory = '../seeds'  # Change this to the path of your seeds directory
 
 # Function to load a CSV into SQLite
 def load_csv_to_sqlite(csv_file, table_name):
