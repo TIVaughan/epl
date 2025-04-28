@@ -2,6 +2,7 @@
     materialized='table'
 ) }}
 
+with combined_dates as (
 SELECT
     '93-94' as season,
     date as originalDate,
@@ -519,3 +520,8 @@ SELECT
     WHD as williamHillDraw,
     WHA as williamHillAway
 FROM PL_00_01
+)
+
+select *
+from combined_dates
+where matchDate is not null
